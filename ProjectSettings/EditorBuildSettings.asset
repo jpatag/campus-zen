@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/begin.unity
+    guid: 550f376b761b5784c82467bc87a1ae27
+  - enabled: 1
     path: Assets/Scenes/Campus Zen Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:

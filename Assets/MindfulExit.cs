@@ -17,7 +17,7 @@ public class ExitMindfulTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("MainCamera"))
         {
             playerInside = true;
             exitPrompt.SetActive(true);
@@ -26,7 +26,7 @@ public class ExitMindfulTrigger : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("MainCamera"))
         {
             playerInside = false;
             exitPrompt.SetActive(false);
